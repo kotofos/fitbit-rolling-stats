@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitbit Active Zone Minutes</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="login.js"></script>
+    <script defer src="chart.js"></script>
+</head>
+<body>
+    <h1>Fitbit Step Tracker</h1>
+    <button id="login-button">Login with Fitbit</button>
+    <div id="content" style="display: none;">
+        <h1>Rolling Average of Active Zone Minutes Over the Last 7 Days</h1>
+        <canvas id="activeZoneMinutesChart" width="800" height="400"></canvas>
+        <div id="current-day-avg" style="font-size: 24px; margin-top: 20px;"></div>
+    </div>
+</body>
+</html>
